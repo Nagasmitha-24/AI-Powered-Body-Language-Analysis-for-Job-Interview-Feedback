@@ -1,0 +1,80 @@
+body {
+  font-family: 'Arial', sans-serif;
+  background-color: #f3f4f6;
+  margin: 0;
+  padding: 0;
+  display: flex;
+  justify-content: center;
+  align-items: flex-start;
+  min-height: 100vh;
+}
+
+.container {
+  background: white;
+  margin-top: 40px;
+  padding: 30px;
+  border-radius: 12px;
+  box-shadow: 0 8px 24px rgba(0, 0, 0, 0.1);
+  width: 90%;
+  max-width: 600px;
+  text-align: center;
+}
+
+h1 {
+  font-size: 28px;
+  color: #333;
+  margin-bottom: 20px;
+}
+
+.upload-section {
+  margin-bottom: 20px;
+}
+
+.upload-button, .analyze-button {
+  display: inline-block;
+  margin-top: 10px;
+  padding: 12px 24px;
+  background-color: #2563eb;
+  color: white;
+  border: none;
+  border-radius: 8px;
+  cursor: pointer;
+  font-size: 16px;
+  transition: background-color 0.3s;
+}
+
+.upload-button:hover, .analyze-button:hover {
+  background-color: #1d4ed8;
+}
+
+video {
+  margin-top: 20px;
+  width: 100%;
+  border-radius: 8px;
+}
+
+.feedback-section {
+  text-align: left;
+  margin-top: 30px;
+}
+
+.feedback-section h2 {
+  font-size: 24px;
+  color: #333;
+  margin-bottom: 10px;
+}
+
+#feedbackList {
+  list-style-type: disc;
+  padding-left: 20px;
+}
+
+#feedbackList li {
+  margin-bottom: 10px;
+  font-size: 16px;
+  color: #555;
+}
+
+.hidden {
+  display: none;
+}
