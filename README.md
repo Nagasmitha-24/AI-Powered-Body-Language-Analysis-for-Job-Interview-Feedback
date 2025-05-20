@@ -1,0 +1,2 @@
+# AI-Powered-Body-Language-Analysis-for-Job-Interview-Feedback
+This project aims to develop an AI-based system that analyzes a candidate’s body language during mock job interviews using computer vision and machine learning. The system captures video input, detects key body movements, facial expressions, eye contact, posture, and gestures, and provides constructive feedback to improve interview performance.
