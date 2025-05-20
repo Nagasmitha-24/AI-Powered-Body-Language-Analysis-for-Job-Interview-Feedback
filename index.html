@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Interview Body Language Analysis</title>
+  <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+
+  <div class="container">
+    <h1>Interview Body Language Analysis</h1>
+
+    <div class="upload-section">
+      <input type="file" id="videoUpload" accept="video/*" hidden>
+      <label for="videoUpload" class="upload-button">Upload Interview Video</label>
+      <video id="videoPreview" controls class="hidden"></video>
+      <button id="analyzeButton" class="analyze-button hidden">Analyze Body Language</button>
+    </div>
+
+    <div id="feedbackSection" class="feedback-section hidden">
+      <h2>Feedback Report</h2>
+      <ul id="feedbackList">
+        <!-- Feedback will appear here -->
+      </ul>
+    </div>
+  </div>
+
+  <script src="script.js"></script>
+</body>
+</html>
